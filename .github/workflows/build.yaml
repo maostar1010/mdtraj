@@ -5,8 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 2" # every monday
+  # schedule:
+  #   - cron: "0 0 * * 2" # every monday
   release:
     types:
       - 'published'
